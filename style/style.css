@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Viking+Gothic');
 * {
   margin: 0;
   padding: 0;
-  font-family: arial, sans-serif;
+  font-family: 'Open Sans';
 }
 
 header{
@@ -11,21 +13,30 @@ header{
   position: relative;
 }
 
+#logo {
+  height: 50px;
+  width: 100px;
+  background-color: #ccc;
+  left: 45px;
+  top: 21px;
+  position: relative;
+  float: left;
+}
 nav {
+  margin-left: 160px;
   position: absolute;
-  right: 20px;
+  right: 45px;
   top: 20px;
 }
 
 nav a{
-  color: #ccc;
+  color: #fff;
   text-transform: uppercase;
   text-decoration: none;
 }
 
 nav a:hover{
-  color: #fff;
-
+  color: #bbb;
 
 }
 nav ul{
@@ -44,15 +55,15 @@ nav li:last-child{
 }
 
 #header_content {
-  color: #ccc;
+  color: #fff;
   width: 100%;
 }
 
 #header_title {
-  width: 550px;
-  font-size: 55px;
+  width: 250px;
+  font-size: 80px;
   margin: 0 auto;
-  padding: 200px 0 0 0;
+  padding: 230px 0 0 0;
   font-weight: bold;
 }
 
@@ -67,7 +78,7 @@ nav li:last-child{
 #header_button a{
   padding: 8px 30px;
   background-color: #243F5D;
-  color: #ccc;
+  color: #fff;
   text-decoration: none;
   font-size: 20px;
   border-radius: 3px;
@@ -76,5 +87,35 @@ nav li:last-child{
 }
 
 #header_button a:hover{
-  color: white;
+  color: #bbb;
+}
+
+section#left {
+  height: 740px;
+  background-color: brown;
+  width: 40%;
+  float: left;
+}
+
+section#right {
+  background-image: url("https://66.media.tumblr.com/103029a6dad9547d5dd27db690d9e7d3/tumblr_n3f4htKlLN1t271yno1_1280.jpg");
+  height: 740px;
+  width:60%;
+  float: left;
+}
+section article{
+  padding: 30px;
+  color: #fff;
+}
+
+footer{
+  height: 60px;
+  background-color: #aaa;
+  float: left;
+  width:100%;
+}
+
+#footText{
+  color: #fff;
+  padding: 20px 30px ;
 }
