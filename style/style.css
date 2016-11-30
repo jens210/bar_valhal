@@ -150,8 +150,8 @@ footer {
     width: 196px;
     background-repeat: no-repeat;
     background-position: right;
-    z-index: 999;
     float: right;
+    margin: 0px 30px;
 }
 
 #facebook, #instagram, #youtube {
