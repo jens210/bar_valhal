@@ -24,7 +24,7 @@ header {
     background-size: contain;
     background-repeat: no-repeat;
     left: 45px;
-    top: 21px;
+    top: 5px;
     position: relative;
     float: left;
 }
@@ -119,9 +119,7 @@ section#left {
     float: left;
 }
 
-#film{
-  margin-left: 10px;
-}
+
 
 section#right {
     background-image: url("https://66.media.tumblr.com/103029a6dad9547d5dd27db690d9e7d3/tumblr_n3f4htKlLN1t271yno1_1280.jpg");
