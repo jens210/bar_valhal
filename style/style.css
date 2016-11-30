@@ -18,9 +18,9 @@ header {
 }
 
 #logo {
-    background-image: url(../images/sword_pixel.png);
-    height: 200px;
-    width: 380px;
+    background-image: url(../images/sword_logo.png);
+    height: 120px;
+    width: 190px;
     background-size: contain;
     background-repeat: no-repeat;
     left: 45px;
