@@ -18,7 +18,7 @@ header {
 }
 
 #logo {
-    background-image: url(../images/sword_logo.png);
+    background-image: url(../images/sword_logo_texture.png);
     height: 120px;
     width: 190px;
     background-size: contain;
