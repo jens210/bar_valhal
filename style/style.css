@@ -114,7 +114,8 @@ visibility: visible;
 
 section#left {
     height: 740px;
-    background-color: brown;
+    background-image: url(../images/wood_wall2.jpg);
+    background-size: cover;
     width: 40%;
     float: left;
 }
@@ -122,10 +123,17 @@ section#left {
 
 
 section#right {
-    background-image: url("https://66.media.tumblr.com/103029a6dad9547d5dd27db690d9e7d3/tumblr_n3f4htKlLN1t271yno1_1280.jpg");
+  background-image: url(../images/wood_sign.png);
+  background-size: cover;
     height: 740px;
     width: 60%;
     float: left;
+}
+
+iframe {
+float: left;
+margin-left: 120px;
+margin-top: 270px;
 }
 
 section article {
