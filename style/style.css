@@ -23,7 +23,9 @@ html, body{
 @media all and (max-width: 500px) {
   #header_button{display: none;}
   article{font-size: 14px;}
-
+  td h2{font-size: 18px;}
+  #content{max-width: 400px;}
+  #bottom{min-width: 500px;}
 }
 
 a {
@@ -48,6 +50,7 @@ header {
   height:auto;
   min-width: 100%;
 }
+
 
 #logo {
   background-image: url(../images/sword_logo_texture.png);
@@ -93,11 +96,11 @@ nav li:last-child {
   border-right: none;
 }
 
+
 #header_content {
   color: #fff;
   width: 100%;
 }
-
 #header_title {
   width: 250px;
   font-size: 80px;
@@ -106,14 +109,26 @@ nav li:last-child {
   font-weight: bold;
 }
 
-#priser {
-  width: 450px;
+#content {
+  max-width: 450px;
   font-size: 16px;
   margin: 0 auto;
-  padding: 300px 0 0 0;
+  padding: 250px 0 0 0;
 }
 
+article{
+  min-width: 50%;
+  margin: 0 auto;
+}
 
+#iArticle{
+  margin: 0;
+  padding: 60px;
+  color: #fff;
+  max-width: 30%;
+  min-width: 30%;
+  min-height: 900px;
+}
 #header_button {
   width: 500px;
   margin: 0 auto;
@@ -132,11 +147,12 @@ nav li:last-child {
 }
 
 #header_button a:hover {
-    color: #bbb;
+  color: #bbb;
 }
 section#right{
   padding: 60px;
   float: right;
+
 }
 
 section#bottom {
@@ -151,12 +167,7 @@ section#bottom {
   min-width: 100%;
 }
 
-section article {
-  padding: 60px;
-  color: #fff;
-  max-width: 30%;
-  min-height: 900px;
-}
+
 
 footer {
   height: 60px;
