@@ -2,6 +2,7 @@
 
 html, body{
   height: 100%;
+  min-height: 100%;
   background-color: rgba(0, 0, 0, 0.57);
 }
 a{
@@ -121,10 +122,11 @@ article{
 
 #iArticle{
   margin: 0;
-  padding:  45px;
+  padding: 150px 45px;
   color: #fff;
   max-width: 25%;
   min-width: 200px;
+  min-height: 800px;
 
 }
 #header_button {
@@ -148,11 +150,9 @@ article{
   color: #bbb;
 }
 section#right{
-  padding:100px 60px;
+  padding:150px 45px;
   float: right;
-
 }
-
 
 section#bottom {
 
@@ -198,13 +198,6 @@ footer {
   margin-right: 50px;
   margin-top: 15px;
   float: right;
-}
-
-#mic{
-  height: 400px;
-  width: 400px;
-  background-repeat: no-repeat;
-  background-image: url(../images/mikrofon.jpg);
 }
 
 #beer{
